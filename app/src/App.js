@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import 'semantic-ui-css/semantic.css';
+import RecentActivity from './ui/RecentActivity';
+import TeamMembers from './ui/TeamMembers';
+import Navbar from './component/Navbar'
+import React from 'react';
 
 function App() {
+  let Page
+  switch (Window.location.pathname) {
+    case "/recent":
+      Page = RecentActivity
+      break
+    case "/team":
+      Page = TeamMembers
+      break
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Page/>
     </div>
   );
 }

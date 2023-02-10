@@ -1,26 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 import 'semantic-ui-css/semantic.css';
 import RecentActivity from './ui/RecentActivity';
 import TeamMembers from './ui/TeamMembers';
+import Home from './ui/Home';
 import Navbar from './component/Navbar'
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
-  let Page
-  switch (Window.location.pathname) {
-    case "/recent":
-      Page = RecentActivity
-      break
-    case "/team":
-      Page = TeamMembers
-      break
-  }
   return (
-    <div className="App">
-      <Navbar/>
-      <Page/>
-    </div>
+      <>
+        <Navbar/>
+        <div className="container">
+          <Routes>
+            <Route path={"/home"} element={<Home />} />
+            <Route path="/recent" element={<RecentActivity />} />
+            <Route path="/team" element={<TeamMembers />} />
+          </Routes>
+        </div>
+      </>
   );
 }
 

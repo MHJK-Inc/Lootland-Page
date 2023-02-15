@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/lootland-page/static/css/main.c8029c5f.css",
-    "main.js": "/lootland-page/static/js/main.549bfe24.js",
+    "main.css": "/lootland-page/static/css/main.f99a8ab6.css",
+    "main.js": "/lootland-page/static/js/main.fc38615c.js",
     "static/js/787.c1112931.chunk.js": "/lootland-page/static/js/787.c1112931.chunk.js",
+    "static/media/MapWithCollider.mp4": "/lootland-page/static/media/MapWithCollider.0731e68d0170a5e25d30.mp4",
     "static/media/micheal_1.mp4": "/lootland-page/static/media/micheal_1.c2f030d1ea9b1be68e62.mp4",
     "index.html": "/lootland-page/index.html",
-    "main.c8029c5f.css.map": "/lootland-page/static/css/main.c8029c5f.css.map",
-    "main.549bfe24.js.map": "/lootland-page/static/js/main.549bfe24.js.map",
+    "main.f99a8ab6.css.map": "/lootland-page/static/css/main.f99a8ab6.css.map",
+    "main.fc38615c.js.map": "/lootland-page/static/js/main.fc38615c.js.map",
     "787.c1112931.chunk.js.map": "/lootland-page/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8029c5f.css",
-    "static/js/main.549bfe24.js"
+    "static/css/main.f99a8ab6.css",
+    "static/js/main.fc38615c.js"
   ]
 }

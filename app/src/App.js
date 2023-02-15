@@ -1,5 +1,5 @@
 import './App.css';
-import 'semantic-ui-css/semantic.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import RecentActivity from './ui/RecentActivity';
 import TeamMembers from './ui/TeamMembers';
 import Home from './ui/Home';

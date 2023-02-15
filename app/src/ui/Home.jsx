@@ -1,9 +1,11 @@
-import React from 'react';
-import { Container } from 'semantic-ui-react';
+import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Home = () => {
   return (
-      <Container>Home Page</Container>
+      <Container className={'text-center'}>
+        <h1 style={{ fontFamily: 'fantasy', fontWeight: 'bolder', fontSize: '5rem', marginTop: '5rem' }}>LootLand: Treasure Into Sea</h1>
+      </Container>
   )
 }
 

@@ -3,9 +3,10 @@ import { Container, Col, Row, Stack, Image, Card } from 'react-bootstrap'
 
 const TeamMembers = () => (
     <Container>
-      <Row className={'text-center'}>
-        <Col>
-          <h1 style={{ fontFamily: 'fantasy', fontWeight: 'bolder', fontSize: '5rem', marginTop: '5rem' }}>Game Developers</h1>
+      <Row>
+        <Col className={'text-center'}>
+          <h1 style={{ fontFamily: 'fantasy', fontWeight: 'bolder', fontSize: '5rem', marginTop: '5rem' }}>Game
+            Developers</h1>
         </Col>
         <Col bsPrefix={'team-col'}>
           <Stack direction="horizontal" gap={5}>
@@ -35,42 +36,45 @@ const TeamMembers = () => (
               <Card.Body>
                 <h3>Jing Zhef</h3>
                 <h4>ICS</h4>
+                <p><a href="https://jingzhef.github.io/bio/">jingzhef.github.io</a></p>
               </Card.Body>
             </Card>
           </Stack>
         </Col>
-          <Col bsPrefix={'team-col'}>
-            <Stack direction="horizontal" gap={5}>
-              <Image
-                  src={'https://avatars.githubusercontent.com/u/56580883?v=4'}
-                  width={171}
-                  height={180}
-                  alt="171x180"
-                  thumbnail
-                  roundedCircle
-              />
-              <Card>
-                <Card.Body>
-                  <h3>Kristian Lazo</h3>
-                  <h4>ICS</h4>
-                </Card.Body>
-              </Card>
-              <Image
-                  src={'https://avatars.githubusercontent.com/u/60207632?v=4'}
-                  width={171}
-                  height={180}
-                  alt="171x180"
-                  thumbnail
-                  roundedCircle
-              />
-              <Card>
-                <Card.Body>
-                  <h3>Michael Chun</h3>
-                  <h4>ICS</h4>
-                </Card.Body>
-              </Card>
-            </Stack>
-          </Col>
+        <Col bsPrefix={'team-col'}>
+          <Stack direction="horizontal" gap={5}>
+            <Image
+                src={'https://avatars.githubusercontent.com/u/56580883?v=4'}
+                width={171}
+                height={180}
+                alt="171x180"
+                thumbnail
+                roundedCircle
+            />
+            <Card>
+              <Card.Body>
+                <h3>Kristian Lazo</h3>
+                <h4>ICS</h4>
+                <p><a href={'https://lazokris.github.io/bio/'}>lazokris.github.io</a></p>
+              </Card.Body>
+            </Card>
+            <Image
+                src={'https://avatars.githubusercontent.com/u/60207632?v=4'}
+                width={171}
+                height={180}
+                alt="171x180"
+                thumbnail
+                roundedCircle
+            />
+            <Card>
+              <Card.Body>
+                <h3>Michael Chun</h3>
+                <h4>ICS</h4>
+                <p><a href={'https://mhkfchun.github.io/bio/'}>mhkfchun.github.io</a></p>
+              </Card.Body>
+            </Card>
+          </Stack>
+        </Col>
       </Row>
     </Container>
 )

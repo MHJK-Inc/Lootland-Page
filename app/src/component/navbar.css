@@ -4,19 +4,17 @@
 
 body {
   margin: 0;
-  background-color: #0d71bb;
+  background-color: whitesmoke;
 }
 
 .nav {
   background-color: #282c34;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
   padding: 0 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .nav ul {
@@ -24,8 +22,7 @@ body {
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 1rem;
-
+  gap: 2rem;
 }
 
 .nav a {

@@ -4,13 +4,14 @@ import RecentActivity from './ui/RecentActivity';
 import TeamMembers from './ui/TeamMembers';
 import Home from './ui/Home';
 import NavigationBar from './component/Navbar';
+import Footer from './ui/Footer';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
       <>
-        <NavigationBar/>
+        <NavigationBar />
         <div className="container">
           <Routes>
             <Route exact path={"/"} element={<Home />} />
@@ -18,6 +19,7 @@ function App() {
             <Route path="/team" element={<TeamMembers />} />
           </Routes>
         </div>
+        <Footer />
       </>
   );
 }

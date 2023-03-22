@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import ImplementOne from '../component/ImplementOne';
 import ImplementTwo from '../component/ImplementTwo';
 import ImplementThree from '../component/ImplementThree';
+import ImplementFour from '../component/ImplementFour';
 
 const RecentActivity = () => {
   return (
@@ -10,6 +11,7 @@ const RecentActivity = () => {
         <ImplementOne/>
         <ImplementTwo/>
         <ImplementThree/>
+        <ImplementFour/>
       </Container>
   );
 };

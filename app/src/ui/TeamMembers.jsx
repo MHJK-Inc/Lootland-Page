@@ -22,6 +22,7 @@ const TeamMembers = () => (
               <Card.Body>
                 <h3>Hinata Miyazawa</h3>
                 <h4>ACM</h4>
+                <Card.Link>hinatam@hawaii.edu</Card.Link>
               </Card.Body>
             </Card>
             <Image
@@ -36,6 +37,7 @@ const TeamMembers = () => (
               <Card.Body>
                 <h3>Jing Zhef</h3>
                 <h4>ICS</h4>
+                <Card.Link>jingzhef@hawaii.edu</Card.Link>
                 <p><a href="https://jingzhef.github.io/bio/">jingzhef.github.io</a></p>
               </Card.Body>
             </Card>
@@ -55,6 +57,7 @@ const TeamMembers = () => (
               <Card.Body>
                 <h3>Kristian Lazo</h3>
                 <h4>ICS</h4>
+                <Card.Link>lazokris@hawaii.edu</Card.Link>
                 <p><a href={'https://lazokris.github.io/bio/'}>lazokris.github.io</a></p>
               </Card.Body>
             </Card>
@@ -70,6 +73,7 @@ const TeamMembers = () => (
               <Card.Body>
                 <h3>Michael Chun</h3>
                 <h4>ICS</h4>
+                <Card.Link>mhkfchun@hawaii.edu</Card.Link>
                 <p><a href={'https://mhkfchun.github.io/bio/'}>mhkfchun.github.io</a></p>
               </Card.Body>
             </Card>

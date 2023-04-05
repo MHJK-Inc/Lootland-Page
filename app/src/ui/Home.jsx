@@ -6,19 +6,12 @@ import Instruction from '../images/March-22/Instruction.png'
 
 const Home = () => {
   return (
+      <>
+      <Row className={'text-center w-100 p-0 m-0'}>
+        <Image src={Start} className={'p-0 m-0 h-25'}/>
+      </Row>
       <Container>
         <Col>
-          <Row className={'text-center'}>
-            <h1 style={{ fontFamily: 'fantasy', fontWeight: 'bolder', fontSize: '5rem', marginTop: '5rem' }}>LootLand:
-              Treasure Into Sea</h1>
-          </Row>
-          <Row>
-            <Image src={Start} fluid/>
-          </Row>
-          <Row>
-            <h3>Game Mechanics</h3>
-            <Image src={Instruction} fluid/>
-          </Row>
           <Row>
             <h3>Overview</h3>
             <p>Lootland: Treasure into Sea is a top-down survival exploration game that plunges players into a thrilling
@@ -42,9 +35,14 @@ const Home = () => {
             <h3>Story Board</h3>
             <Image src={ACM487_FINAL_Storyboard} fluid/>
           </Row>
+          <Row>
+            <h3>Game Mechanics</h3>
+            <Image src={Instruction} fluid/>
+          </Row>
         </Col>
 
       </Container>
+      </>
   )
 }
 

@@ -10,7 +10,7 @@ const ImplementTwo = () => {
         <Row className="mb-5">
           <h1 className="text-center text-decoration-underline mb-5" style={{ fontWeight: 'bolder', fontSize: '3rem', marginTop: '5rem' }}>February 22, 2023</h1>
         </Row>
-        <Row style={{ justifyContent: 'space-evenly', alignItems: 'center', marginTop: '-5rem' }}>
+        <Row style={{ backgroundColor: 'gray', justifyContent: 'space-evenly', alignItems: 'center', marginTop: '-5rem' }}>
           <Col style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'center', flex: '1 0' }}>
             <Card>
               <Card.Img

@@ -12,8 +12,9 @@ const ImplementOne = () => {
           <h1 className="text-center text-decoration-underline mb-5"
               style={{ fontWeight: 'bolder', fontSize: '3rem', marginTop: '5rem' }}>February 15, 2023</h1>
         </Row>
-        <Row style={{ justifyContent: 'space-evenly', alignItems: 'center', marginTop: '-5rem' }}>
+        <Row style={{ backgroundColor: 'gray', justifyContent: 'space-evenly', alignItems: 'center', marginTop: '-5rem' }}>
           <Col style={{
+            backgroundColor: 'gray',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
@@ -33,6 +34,7 @@ const ImplementOne = () => {
             </Card>
           </Col>
           <Col style={{
+            backgroundColor: 'gray',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
@@ -48,13 +50,13 @@ const ImplementOne = () => {
             </Card>
           </Col>
           <Col style={{
+            backgroundColor: 'gray',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
             textAlign: 'center',
-            flex: '1 0'
-          }}>
+            flex: '1 0' }}>
             <Card>
               <ReactPlayer url={MapWithCollider} width="100%" height="100%" controls={true}/>
               <Card.Body>

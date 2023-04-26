@@ -2,15 +2,19 @@ import React from 'react'
 import { Container, Col, Row, Image } from 'react-bootstrap'
 import ACM487_FINAL_Storyboard from '../images/ACM487_Final_Storyboard.png'
 import Start from '../images/March-22/Start.png';
-import Instruction from '../images/March-22/Instruction.png'
+import Instruct from '../images/Instruct.png'
+import micheal_1  from '../images/micheal_1.mp4';
+import ReactPlayer from 'react-player';
 
 const Home = () => {
   return (
-      <>
-      <Row className={'text-center w-100 p-0 m-0'}>
-        <Image src={Start} className={'p-0 m-0 h-25'}/>
-      </Row>
       <Container>
+        <Row className={'text-center w-100'}>
+          <Image src={Start} className={'p-0 m-0 h-25'}/>
+        </Row>
+        <Row className={'text-center w-100'}>
+          <ReactPlayer url={micheal_1} width="100%" height="100%" controls={true}/>
+        </Row>
         <Col>
           <Row>
             <h3>Overview</h3>
@@ -37,12 +41,11 @@ const Home = () => {
           </Row>
           <Row>
             <h3>Game Mechanics</h3>
-            <Image src={Instruction} fluid/>
+            <Image src={Instruct} fluid/>
           </Row>
         </Col>
 
       </Container>
-      </>
   )
 }
 

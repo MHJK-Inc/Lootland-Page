@@ -4,6 +4,7 @@ import ImplementOne from '../component/ImplementOne';
 import ImplementTwo from '../component/ImplementTwo';
 import ImplementThree from '../component/ImplementThree';
 import ImplementFour from '../component/ImplementFour';
+import ImplementFive from '../component/ImplementFive';
 
 const RecentActivity = () => {
   return (
@@ -12,6 +13,7 @@ const RecentActivity = () => {
         <ImplementTwo/>
         <ImplementThree/>
         <ImplementFour/>
+        <ImplementFive/>
       </Container>
   );
 };

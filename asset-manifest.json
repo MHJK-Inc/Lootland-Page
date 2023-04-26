@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lootland-page/static/css/main.c62bdbdf.css",
-    "main.js": "/lootland-page/static/js/main.02261cf5.js",
+    "main.js": "/lootland-page/static/js/main.00c08e23.js",
     "static/js/787.d098a5dd.chunk.js": "/lootland-page/static/js/787.d098a5dd.chunk.js",
     "static/media/ShootingEnemy.mp4": "/lootland-page/static/media/ShootingEnemy.ea35a094efc402b5dc27.mp4",
     "static/media/Game_Play2.mp4": "/lootland-page/static/media/Game_Play2.7d773bdc9d81bf6787fd.mp4",
@@ -12,7 +12,6 @@
     "static/media/micheal_1.mp4": "/lootland-page/static/media/micheal_1.c2f030d1ea9b1be68e62.mp4",
     "static/media/Boss.png": "/lootland-page/static/media/Boss.dd21d2e6414b28d8dbe2.png",
     "static/media/image.png": "/lootland-page/static/media/image.1e305a0effe110f579ad.png",
-    "static/media/Start.png": "/lootland-page/static/media/Start.d404fa7d6ecbd7d669b2.png",
     "static/media/Octo.png": "/lootland-page/static/media/Octo.48623149faf642c9d2d4.png",
     "static/media/Instruct.png": "/lootland-page/static/media/Instruct.b06b83e92e1fe94edc70.png",
     "static/media/New_Player_Sprite.png": "/lootland-page/static/media/New_Player_Sprite.dae37a41c082d39ff469.png",
@@ -21,15 +20,16 @@
     "static/media/EMP.png": "/lootland-page/static/media/EMP.af5721d92337dee49b92.png",
     "static/media/Chest.png": "/lootland-page/static/media/Chest.9418e2afe9a2510c6242.png",
     "static/media/tiledesign3.png": "/lootland-page/static/media/tiledesign3.a4620933f5da251a418a.png",
+    "static/media/Logo_Title.png": "/lootland-page/static/media/Logo_Title.800454f0cfa238a786cc.png",
     "static/media/New_Piskel_3.png": "/lootland-page/static/media/New_Piskel_3.509016c3f42b01675e3b.png",
     "static/media/Orbit_Projectile_2.png": "/lootland-page/static/media/Orbit_Projectile_2.6dc1d966008ef3527fd3.png",
     "index.html": "/lootland-page/index.html",
     "main.c62bdbdf.css.map": "/lootland-page/static/css/main.c62bdbdf.css.map",
-    "main.02261cf5.js.map": "/lootland-page/static/js/main.02261cf5.js.map",
+    "main.00c08e23.js.map": "/lootland-page/static/js/main.00c08e23.js.map",
     "787.d098a5dd.chunk.js.map": "/lootland-page/static/js/787.d098a5dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c62bdbdf.css",
-    "static/js/main.02261cf5.js"
+    "static/js/main.00c08e23.js"
   ]
 }

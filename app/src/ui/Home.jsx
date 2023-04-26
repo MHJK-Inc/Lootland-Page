@@ -3,7 +3,7 @@ import { Container, Col, Row, Image } from 'react-bootstrap'
 import ACM487_FINAL_Storyboard from '../images/ACM487_Final_Storyboard.png'
 import Start from '../images/March-22/Start.png';
 import Instruct from '../images/Instruct.png'
-import micheal_1  from '../images/micheal_1.mp4';
+import Game_Play2 from '../images/Game_Play2.mp4';
 import ReactPlayer from 'react-player';
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
           <Image src={Start} className={'p-0 m-0 h-25'}/>
         </Row>
         <Row className={'text-center w-100'}>
-          <ReactPlayer url={micheal_1} width="100%" height="100%" controls={true}/>
+          <ReactPlayer url={Game_Play2} width="100%" height="100%" controls={true}/>
         </Row>
         <Col>
           <Row>

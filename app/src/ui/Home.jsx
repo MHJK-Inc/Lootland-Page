@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Col, Row, Image } from 'react-bootstrap'
 import ACM487_FINAL_Storyboard from '../images/ACM487_Final_Storyboard.png'
-import Start from '../images/March-22/Start.png';
+import Logo_Title from '../images/Logo_Title.png'
 import Instruct from '../images/Instruct.png'
 import Game_Play2 from '../images/Game_Play2.mp4';
 import ReactPlayer from 'react-player';
@@ -10,7 +10,7 @@ const Home = () => {
   return (
       <Container>
         <Row className={'text-center w-100'}>
-          <Image src={Start} className={'p-0 m-0 h-25'}/>
+          <Image src={Logo_Title} className={'p-0 m-0 h-25'}/>
         </Row>
         <Row className={'text-center w-100'}>
           <ReactPlayer url={Game_Play2} width="100%" height="100%" controls={true}/>
